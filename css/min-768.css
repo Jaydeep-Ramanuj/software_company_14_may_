@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  :root {
+    --primary-padding: 0px 50px;
+    --section-gap: 50px;
+  }
+  #services-section .service-cards .service-card {
+    max-width: 350px;
+  }
+  #dev-approach-section .approach-cards .approach-card {
+    max-width: 300px;
+  }
+
+  .fluid-img {
+    max-width: 390px;
+    margin: 0 auto;
+  }
+
+  #ways-section .ways-of-working-cards .way-of-working-card {
+    width: 70%;
+    margin: 0 auto;
+    gap: 15px;
+  }
+  footer .top-footer {
+    justify-content: space-between;
+  }
+}
